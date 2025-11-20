@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color: #000;
+    --border: 1px solid #000;
+}
+body {
+    font-family: Cambria;
+    background-color: #f4f4f4;
+    color: var(--color);
+    line-height: 1.6;
+    margin: 10px;
+    width: 60%;
+    margin: 30px auto;
+}
+.name {
+    text-align: center;
+}
+.name h1 {
+    border-bottom: var(--border);
+}
+.name ul {
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    list-style-position: inside;
+    border-bottom: var(--border);
+}
+.tel {
+    text-decoration: none;
+    color: var(--color);
+}
+.education h2 {
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+.education h3 {
+    padding-top: 8px;
+}
+.education p {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.period {
+    float: right;
+}
+.experience h2 {
+    border-bottom: var(--border);
+    padding-bottom: 5px;
+}
+.experience h3 {
+    padding-top: 8px;
+}
+.projects h2, .certifications h2, .skills h2 {
+    padding: 8px 0;
+    border-bottom: var(--border);
+    margin-bottom: 8px;
+}
+ul li {
+    list-style-position: inside;
+}
+span {
+    font-weight: bold;
+}
+span a {
+    text-decoration: none;
+    color: var(--color);
+}
+span a:hover, .tel:hover {
+    text-decoration: underline;
+}
