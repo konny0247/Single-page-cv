@@ -28,8 +28,13 @@ body {
     justify-content: center;
     display: flex;
     gap: 20px;
-    list-style-position: inside;
     border-bottom: var(--border);
+}
+.name li {
+    list-style-position: inside;
+}
+.name li:first-child{
+    list-style: none;
 }
 .tel {
     text-decoration: none;
@@ -74,4 +79,5 @@ span a {
 }
 span a:hover, .tel:hover {
     text-decoration: underline;
+
 }
